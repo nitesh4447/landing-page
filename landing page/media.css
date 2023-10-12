@@ -1,0 +1,329 @@
+@media(max-width:480px)
+{
+    *
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box; 
+        transform: translate(all 15s); 
+    }
+    body
+
+{
+    width: 100%;
+    height: 100vh;
+}
+    .main
+    {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        justify-items: center;
+
+    
+    }
+
+    .nitesh
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/uncity.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:185%;
+    height:100vh;  
+}
+
+.text
+{
+    transform: translate(-50% ,-50%);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    /* background-color: aliceblue; */
+    justify-content:space-around;
+    justify-items: center;
+    text-align: center;
+    
+    
+}
+
+
+     
+    .navbar
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+
+.logo img 
+{
+    width: 60px;
+    height: 50px;
+    height: 130px;
+    margin: 15%;
+    margin-left: 50%;
+}
+
+
+.main-img
+{
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+   /* text-align: center; */
+   justify-content: space-between;
+   margin: auto;
+    
+}
+
+.text-t
+
+{
+    width: 100%;
+   margin-left:40%;
+   
+}
+
+.text-t p
+{
+    color: black;
+    text-align: center;
+    padding: 10px 20px ;
+}
+
+
+.text-t h3
+{
+    text-align: center;
+    padding-top: 15px;
+    color: blue;
+
+  
+}
+
+
+
+.box
+{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px ;
+    margin-left: 40%;
+    justify-content: space-between;
+   
+
+}
+
+.front-end h3 
+{
+    color: blue;
+    text-shadow: 1px 1px 1px grey;
+
+}
+.front-end
+{
+   
+    width: 100%;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px     ;
+}
+
+.front-end p
+{
+    color: black;
+ 
+}
+.our-branches
+{
+    text-align: center;
+    padding: 15px 20px ;
+    width: 100%;
+    margin-left: 40%;
+    
+}
+
+.our-branches h3
+{    
+   
+    color: blue;
+}
+
+
+.row
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:auto;
+    margin-left: 40%;
+    /* position: absolute;
+    top: 90%;
+    left:10%; */
+
+}
+
+.coures-col
+{
+    flex-basis: 30%;
+    position: relative;
+    padding: 20px;
+
+
+}
+
+.coures-col img
+{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+.layer h3
+{
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 45%;
+    bottom: 0%;
+    color: white;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.faculty
+{
+    width: 100%;
+}
+
+.main-img
+{
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+   /* text-align: center; */
+   justify-content: space-between;
+   margin: auto;
+   margin-left: 40%;
+    
+}
+
+.faculty-img img 
+{
+    width: 130%;
+}
+
+.faculty h3
+{
+  
+    color: blue;
+    margin-left: 40%;
+    width: 100%;
+    
+
+    
+}
+
+.main-text
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 41%;
+   padding: 10px 30px;
+}
+
+.student
+{
+    text-align: center;
+    margin-left: 40%;
+    color: blue;
+    width: 100%;
+}
+
+.student-view
+{
+    width: 100%;
+    /* text-align: center; */
+    justify-content: space-between;
+    /* justify-items: center; */
+    margin: auto;
+    display: flex;
+    flex-direction: column  ;
+    margin-left: 40%;
+}
+.student-view img
+{
+     width: 100%;
+}
+
+.par2
+{
+    width: 100%;
+    margin: auto;
+    padding: 20px 30px ;
+    text-align: center;
+    margin-left: 40%;
+}
+.footer 
+ {
+   width: 100%;
+   margin: auto;
+   padding: 10PX 10PX ;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }   
+
+ .box1
+{
+    /* padding: 10px 20px ; */
+    background-color: #fff;
+    width: 100%;
+    margin-left: 40%;
+    box-shadow: 0px 0px 10px black;
+    padding: 30px 20px;
+
+}
+
+ .loc
+{
+    width: 100%;
+    padding: 15px 00px;
+
+}
+.footer .box2
+{
+    /* padding: 10px 20px ; */
+    background-color: #fff;
+    width: 100%;
+    height: 600px;
+    margin-left: 40%;
+    box-shadow: 0px 0px 10px black;
+    padding: 30px 20px;
+   
+}
+.name4
+{
+    width: 80px;
+
+}
+
+textarea
+{
+    width: 400px;
+}
+
+
+}
